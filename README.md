@@ -49,5 +49,15 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.
     [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb)
 
 * The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews:
+##### Vine
+
+![Vine_Total](Resources/paid_total_reviews.png "Vine Total Reviews")
+![Vine_5-Star](Resources/paid_5star_reviews.png "Vine 5-Star Reviews")
+![Vine_Percent](Resources/paid_5star_percent.png "Vine 5-Star Percent")
+
+##### Non-Vine
+![Non-Vine_Total](Resources/unpaid_total_reviews.png "Non-Vine Total Reviews")
+![Non-Vine_5-Star](Resources/unpaid_5star_reviews.png "Non-Vine 5-Star Reviews")
+![Non-Vine_Percent](Resources/unpaid_5star_percent.png "Non-Vine 5-Star Percent")
 
 ### Summary
