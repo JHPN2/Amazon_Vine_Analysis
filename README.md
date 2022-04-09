@@ -7,6 +7,10 @@ In this project, we’ll have access to approximately 50 datasets. Each one cont
 #### Dataset: Amazon Watches Reviews
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz
 
+[Amazon_Reviews_ETL.ipynb](Amazon_Reviews_ETL.ipynb)
+
+[Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb)
+
 ### Results
 #### Deliverable 1: Perform ETL on Amazon Watches Reviews
 * Amazon Review of dataset is extracted as a DataFrame:
@@ -34,19 +38,19 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.
 
 * Data is filtered to create a DataFrame where there are 20+ total votes:
 
-    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb)    
+    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb) (Cell 4)    
 
 * Data is filtered to create a DataFrame where percentage of helpful_votes is >= 50%:
     
-    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb)
+    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb) (Cell 5)
     
 * Data is filtered where there is a Vine review:
 
-    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb)
+    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb) (Cell 6)
     
 * Data is filtered where there is no Vine review:
 
-    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb)
+    [Vine_Review_Analysis.ipynb](Vine_Review_Analysis.ipynb) (Cell 7)
 
 * The total number of reviews, the number of 5-star reviews, and the percentage 5-star reviews are calculated for all Vine and non-Vine reviews:
 ##### Vine
@@ -61,3 +65,4 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.
 ![Non-Vine_Percent](Resources/unpaid_5star_percent.png "Non-Vine 5-Star Percent")
 
 ### Summary
+Based on the results from the analysis of the Amazon Watches reviews, it was determined that 32% of the reviews in the Vine program were 5-stars reviews. However, examining the results of the percentage in the non-Vine reviews yeilded a surprising 52% 5-star reviews. This result describes that there is no bias for reviews in the Vine program. On area that we could futher analyze is the statistical distribution (i.e.: mean, median and mode) of all the star ratings for the Vine program vs. the Non-Vine.
