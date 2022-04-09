@@ -1,7 +1,7 @@
 # Amazon Vine Analysis
 
 ### Overview
-In this project, we’ll have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products. We will pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Afterwhich, we'll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. In this project, we will be focusing on Amazon reviews of watches.
+In this project, we’ll have access to approximately 50 datasets of Amazon product reviews. Each one contains reviews of a specific product, from clothing apparel to wireless products. We will pick one of these datasets and use PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Afterwhich, we'll use PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members in your dataset. In this project, we will be focusing on Amazon reviews of watches and using PySpark for our bias determination.
 
 ### Resources
 #### Dataset: Amazon Watches Reviews
