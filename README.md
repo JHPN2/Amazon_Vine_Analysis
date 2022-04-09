@@ -9,9 +9,23 @@ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.
 
 ### Results
 #### Deliverable 1: Perform ETL on Amazon Watches Reviews
-* Amazon Review of dataset is extracted as a DataFrame: 
+* Amazon Review of dataset is extracted as a DataFrame:
+
+    [Resources/Amazon_Reviews_ETL.ipynb.pdf](Amazon_Reviews_ETL.ipynb.pdf)
+
 * Extracted dataset is transformed into 4 DataFrames with correct columns:
+
+    [Resources/Amazon_Reviews_ETL.ipynb.pdf](Amazon_Reviews_ETL.ipynb.pdf)
+
 * 4 DataFrames are loaded into pgAdmin:
+
+![Customer_Table](Resources/customers_table.png "Customer Table")
+
+![Products_Table](Resources/products_table.png "Products Table")
+
+![Review_ID_Table](Resources/review_id_table.png "Review Table")
+
+![Vine_Table](Resources/vine_table.png "Vine Table")
 
 #### Deliverable 2: Determine Bias of Vine Reviews
 * PySpark method was used:
